@@ -52,22 +52,3 @@ button:hover {
     font-size: 15px;
     transition: all 0.3s ease;
 }
-
-/* 🔁 Responsive holat uchun */
-@media (max-width: 480px) {
-    body {
-        padding: 20px 10px;
-    }
-
-    .container {
-        padding: 20px 15px;
-    }
-
-    input, button {
-        font-size: 15px;
-    }
-
-    .note {
-        font-size: 13px;
-    }
-}
