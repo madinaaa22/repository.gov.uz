@@ -1,54 +1,83 @@
 body {
-    font-family: Arial, sans-serif;
-    text-align: center;
-    padding: 50px 20px;
-    background-color: #f7f7f7;
-    margin: 0;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background: #f4f4f4;
 }
 
 .container {
-    background: white;
-    padding: 30px 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    max-width: 400px;
-    width: 100%;
-    margin: 0 auto;
-    box-sizing: border-box;
+  background: white;
+  max-width: 500px;
+  margin: auto;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.alert-box {
+  background: #fff3cd;
+  color: #856404;
+  padding: 10px 15px;
+  border: 1px solid #ffeeba;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+
+.alert-box a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
 }
 
 input {
-    padding: 10px;
-    width: 100%;
-    font-size: 16px;
-    margin-bottom: 20px;
-    box-sizing: border-box;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  font-size: 16px;
+  box-sizing: border-box;
 }
 
 button {
-    padding: 12px;
-    font-size: 16px;
-    background-color: #28a745;
-    color: white;
-    border: none;
-    cursor: pointer;
-    width: 100%;
-    border-radius: 4px;
-    box-sizing: border-box;
+  width: 100%;
+  padding: 12px;
+  background-color: #28a745;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
 button:hover {
-    background-color: #218838;
+  background-color: #218838;
+}
+
+.message {
+  margin-top: 10px;
+  font-size: 14px;
 }
 
 .note {
-    margin-top: 20px;
-    color: gray;
-    font-size: 14px;
+  margin-top: 10px;
+  font-size: 13px;
+  color: #666;
+}
+.doc-image {
+  width: 40%;
+  display: block;
+  margin: 20px auto 0 auto; /* yuqoridan 20px, o'rtaga avtomatik */
+  border: 1px solid #ccc;
+  border-radius: 4px;
 }
 
-.error-message {
-    margin-top: 15px;
-    font-size: 15px;
-    transition: all 0.3s ease;
-}
