@@ -9,7 +9,7 @@ function checkPIN() {
     message.style.color = "green";
     message.textContent = "Успешно! Документ открывается...";
     setTimeout(() => {
-      window.location.href = "https://drive.google.com/file/d/1VC80SzkL1gXf0DmV2dlKQw0VAhsaufgf/view";
+      window.location.href = "https://drive.google.com/file/d/1UVDpa4gfquwM2BGaidqI5qK3r8lFC9Bp/view";
     }, 1000);
   } else {
     message.textContent = "Неверный PIN-код. Пожалуйста, попробуйте снова.";
